@@ -30,7 +30,7 @@ private:
 public:
     int GetValue(int index);
     void SetValue(int index, int value);
-    void QuickSort(int low, int high);
+    void Sort(int maxValue);
 };
 
 #endif //DEQUE_H
