@@ -45,7 +45,7 @@ int main()
         typedef std::chrono::milliseconds ms;
 
         auto t0 = Time::now();
-        deque.Sort(n-1);
+        deque.Sort(n);
         auto t1 = Time::now();
 
         ms time = std::chrono::duration_cast<ms>(t1 - t0);
